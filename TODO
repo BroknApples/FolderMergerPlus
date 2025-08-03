@@ -1,0 +1,17 @@
+New Idea:
+
+Create terminal edition and non-terminal edition (through like cmd-line args or something)
+
+Terminal edition should be made first and will implement everything, expect UI ofc. Once complete, start working on the UI version
+
+
+
+
+
+
+WANTED FEATURES:
+* Tag any given file or folder with a tag, anything in that (tagging a folder causes all sub-folders to also get the same tag)
+* reloadProject() function that re-checks all files in the index and sees if any are missing and if so, removes them, whilst also adding new files to the index
+* Index file called like 'project.json' in the root directory of a project, it holds the tags listed for any given folder/file (tags: file_path/folder_path)
+* Tags are custom-made, not preset, so when you load a project the 'project.json' file will check each tag in the [Tags] section and creates variables for them in the class, when a new tag is created a new section in the [Tags] section of the json.
+* Searchable tags along with + or - before to either exclude or include tags. Seperate args by commas, semicolon, colon, etc. and when an unknown search arg is entered (not a tag), it will be assumed it is a folder, so it will search the index for folders with that name. Surrounding a search argument with "" or '' will allow you to enter tags/folders with separators in them.
