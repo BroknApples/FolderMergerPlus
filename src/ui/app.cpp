@@ -54,7 +54,7 @@ void App::init() {
   _window->resize(WINDOW_WIDTH, WINDOW_HEIGHT);
   _window->setMinimumSize(QSize(WINDOW_MINIMUM_WIDTH, WINDOW_MINIMUM_HEIGHT));
 
-  // TODO: setup sub-widgets here
+  // TODO: Load all pages up into some array/map, but dynamically change which is central.
   _window->setCentralWidget(new HomePage());
   
   // Set initialized flag to true

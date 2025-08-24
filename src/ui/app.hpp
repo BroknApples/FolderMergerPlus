@@ -9,8 +9,8 @@
 #include <QMainWindow>
 #include <QSize>
 #include <QString>
-#include "config.hpp"
-#include "utils.hpp"
+#include "../core/config.hpp"
+#include "../core/utils.hpp"
 #include "pages/home_page.hpp"
 
 

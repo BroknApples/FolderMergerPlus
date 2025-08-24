@@ -1,5 +1,5 @@
-#include "album_manager/app.hpp"
-#include "album_manager/config.hpp"
+#include "ui/app.hpp"
+#include "ui/config.hpp"
 
 
 /**

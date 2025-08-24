@@ -14,12 +14,14 @@ set (SOURCES
   # Main
   src/main.cpp
 
-  # Application
-  src/album_manager/app.cpp
-  src/album_manager/config.cpp
-  src/album_manager/utils.cpp
+  # Core
+  src/core/config.cpp
+  src/core/utils.cpp
 
-  # Pages
+  # UI
+  src/ui/app.cpp
+
+  # UI - Pages
   src/album_manager/pages/home_page.cpp
 )
 
